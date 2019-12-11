@@ -1,0 +1,62 @@
+header, footer{
+  border: 1px solid red;
+}
+header{
+high: 50px;
+  text-align: center;
+  wertical-align: middle;
+}
+aside{
+  border: 1px solid orange;
+}
+nav{
+  border: 1px solid darkblue;
+}
+main{
+  border: 1px solid forestgreen;
+}
+.container{
+  border: 1px solid black;
+}
+.fixed{
+  width: 500px;
+  margin: 0 auto;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul ul{
+  display: none;
+}
+nav ul li a{
+  padding: 5px;
+  display: inline-block;
+  transition-duration: 500ms;
+}
+nav ul li a:hover{
+  background-color: lawngreen;
+}
+nav.horizontal ul li {
+  display: inline-block;
+}
+nav.horizontal ul {
+  text-align: center;
+}
+nav.vertical ul li a{
+  display: block;
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+}
+aside.left, main, aside.right{
+  float: left;
+  padding: 5px;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+footer{
+  clear: both;
+}
