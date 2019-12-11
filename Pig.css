@@ -1,0 +1,143 @@
+body{
+  font-family: Arial, sans-serif;
+}
+header{
+  background-color: ghostwhite;
+  min-height: 15px;
+  padding: 10px;
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  border: none;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  display: inline-block;
+  transition-duration: 500ms;
+}
+fieldset{
+  border: 1px solid lightgrey;
+  margin: 0;
+}
+form{
+  background-color: ghostwhite;
+  text-align: left;
+  margin: 30px;
+  margin-top: 0;
+  padding: 5px;
+  margin-left: 35px;
+  vertical-align: top;
+  width: 270px;
+}
+input[type="text"]{
+  width: 83%;
+}
+input, label{
+  margin: 10px;
+}
+input{
+  padding: 5px;
+}
+.float{
+  margin-left: 75%;
+}
+.baton{
+  background-color: #287bde;
+  border-width: 0;
+  color: white;
+  padding: 8px;
+}
+
+article.top{
+  border-bottom: solid black 1px;
+  /*display: inline-block;*/
+}
+.top > div{
+  display: inline-block;
+}
+
+figure > div{
+  width: 18.5%;
+  margin: 0 0 1em 0.5em;
+  padding: 0.5em 0.5em 0.5em 6px;
+  padding-top: 1px;
+  border: 1px solid lightgrey;
+  background-color: #ffffff;
+}
+.grey{
+  color: grey;
+}
+figure.slides{
+  margin: 0 20px;
+  padding: 10px;
+}
+.slides div{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 120px;
+}
+.slides div:first-child{
+  margin-left: 90px;
+}
+.slides > div > img {
+  float: left;
+  margin-right: 16px;
+}
+
+.slides > div > img:last-child {
+  margin-right: 0;
+}
+nav > ul > button{
+  width: 65px;
+}
+a{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.float2{
+  margin-left: 20%;
+}
+nav ul li a:hover{
+  background-color: #b3d4fc;
+  color: white;
+}
+table{
+  border: none;
+  width: 80%;
+  margin-right: 60px;
+}
+th, td{
+  width: 25%;
+  text-align: center;
+}
+th {
+  font-weight: normal;
+  font-size: 20px;
+}
+td{
+  font-size: 12px;
+  color: #287bde;
+  padding-top: 10px;
+}
+main > footer{
+  background-color: ghostwhite;
+}
+footer nav ul li{
+  padding-left: 20px;
+}
+footer nav ul li:first-child{
+  padding-left: 300px;
+}
+footer{
+  padding-top: 20px;
+}
+.copyright{
+  font-weight: 600;
+  margin-left: 500px;
+}
